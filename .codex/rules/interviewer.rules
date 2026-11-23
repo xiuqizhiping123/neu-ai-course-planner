@@ -1,0 +1,12 @@
+prefix_rule(
+    pattern=["uv", ["sync", "lock", "add", "remove", "--version"]],
+    decision="allow",
+    justification="Allow uv dependency management.",
+)
+
+prefix_rule(pattern=["uv", "run", "ruff", "check"], decision="allow")
+prefix_rule(pattern=["uv", "run", "pytest"], decision="allow")
+prefix_rule(pattern=["uv", "run", "pyright"], decision="allow")
+
+prefix_rule(pattern=["git", "diff"], decision="allow")
+prefix_rule(pattern=["git", "status"], decision="allow")

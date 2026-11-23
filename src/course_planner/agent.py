@@ -6,6 +6,7 @@ from langchain_core.runnables import RunnableConfig
 from langgraph.checkpoint.memory import MemorySaver
 
 from course_planner.config import create_model
+from course_planner.planning_tools import PLANNING_TOOLS
 
 llm = create_model()
 
@@ -19,7 +20,7 @@ Explain clearly why every recommended course satisfies academic constraints and 
 def build_agent(sys_prompt: str = system_prompt, tools: list | None = None):
     return create_agent(
         model=llm,
-        tools=tools or [],
+        tools=tools if tools is not None else PLANNING_TOOLS,
         system_prompt=sys_prompt,
         checkpointer=MemorySaver(),
     )

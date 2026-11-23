@@ -20,7 +20,6 @@ class ModelSettings(BaseSettings):
     request_timeout: float = 60.0
     max_retries: int = 2
 
-
 def create_model(
     settings: ModelSettings | None = None,
     *,

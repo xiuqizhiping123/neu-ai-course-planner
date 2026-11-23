@@ -5,8 +5,10 @@ import re
 from pathlib import Path
 from typing import Any
 
+DEFAULT_DATA_ROOT = Path(__file__).resolve().parents[2] / "data" / "runtime"
 
-def load_runtime_data(root: Path = Path("data/runtime")) -> dict[str, Any]:
+
+def load_runtime_data(root: Path = DEFAULT_DATA_ROOT) -> dict[str, Any]:
     """Read a consistent release, including approved historical course codes."""
     pointer = json.loads((root / "current.json").read_bytes())
     release_id = pointer["release"]

@@ -1,5 +1,6 @@
 """Deterministic tools for the published Boston MS-SES Coursework catalog."""
 
+from langchain_core.tools import tool
 from collections import Counter, defaultdict
 from datetime import date
 from typing import Any
@@ -62,6 +63,7 @@ def _sections(data: dict[str, Any], program: dict[str, Any]) -> list[dict[str, A
     ]
 
 
+@tool
 def get_available_courses(program_id: str = DEFAULT_PROGRAM) -> dict[str, Any]:
     """List published course rules and Boston or Online sections with snapshot seats."""
     data = load_runtime_data()
@@ -87,7 +89,8 @@ def _evaluate(
         ]
         outcomes = [child["eligible"] for child in children]
         if expression["op"] == "AND":
-            eligible = False if False in outcomes else (None if None in outcomes else True)
+            eligible = False if False in outcomes else (
+                None if None in outcomes else True)
         else:
             eligible = True if True in outcomes else None if None in outcomes else False
         return {"op": expression["op"], "eligible": eligible, "requirements": children}
@@ -98,9 +101,9 @@ def _evaluate(
         course in transcript
         and grade != "F"
         and (
-            minimum is None
-            or (grade in GRADE_RANK and GRADE_RANK[grade] >= GRADE_RANK[minimum])
-        )
+        minimum is None
+        or (grade in GRADE_RANK and GRADE_RANK[grade] >= GRADE_RANK[minimum])
+    )
     ):
         return {**expression, "eligible": True, "status": "completed"}
     if course in planned and (corequisite or expression["allow_concurrent"]):
@@ -159,6 +162,7 @@ def _check(
     }
 
 
+@tool
 def check_prerequisites(
     completed_courses: list[str],
     target_course: str,
@@ -283,6 +287,7 @@ def _degree_progress(
     }
 
 
+@tool
 def validate_course_plan(
     student_profile: dict[str, Any],
     proposed_courses: list[str],
@@ -336,7 +341,8 @@ def validate_course_plan(
             issues.append(f"{code}: {check['reason']}")
         available = [
             row for row in sections if row["course_code"] == code
-            and (code not in pinned or row["crn"] == pinned[code])
+                                       and (code not in pinned or row["crn"] == pinned[
+                code])
         ]
         if not available:
             detail = f"no matching section ({pinned[code]})" if code in pinned else "no section"
@@ -356,7 +362,8 @@ def validate_course_plan(
         ranges = [_credit_range(courses[row["course_code"]], row) for row in planned]
         low, high = sum(value[0] for value in ranges), sum(value[1] for value in ranges)
         if cap is not None and low > cap:
-            issues.append(f"Minimum planned credits ({low:g}) exceed the {cap:g} limit.")
+            issues.append(
+                f"Minimum planned credits ({low:g}) exceed the {cap:g} limit.")
         elif cap is not None and high > cap:
             issues.append(f"Confirm variable credits within the {cap:g}-credit limit.")
     for row in planned:
@@ -374,3 +381,10 @@ def validate_course_plan(
         "credits_max": high,
         "graduation_progress": _degree_progress(program, courses, transcript, planned),
     }
+
+
+PLANNING_TOOLS = [
+    get_available_courses,
+    check_prerequisites,
+    validate_course_plan,
+]

@@ -6,6 +6,7 @@ from langchain_core.runnables import RunnableConfig
 from langgraph.checkpoint.memory import MemorySaver
 
 from course_planner.config import create_model
+from course_planner.logger import AgentObservabilityHandler
 from course_planner.planning_tools import PLANNING_TOOLS
 
 llm = create_model()
@@ -27,7 +28,11 @@ def build_agent(sys_prompt: str = system_prompt, tools: list | None = None):
 
 
 def run_planning():
-    config: RunnableConfig = {"configurable": {"thread_id": f"planner_{uuid4()}"}}
+    thread_id = f"planner_{uuid4()}"
+    config: RunnableConfig = {
+        "configurable": {"thread_id": thread_id},
+        "callbacks": [AgentObservabilityHandler(thread_id=thread_id)],
+    }
     agent = build_agent()
 
     print("NEU AI Course Planner started. Type 'exit' to quit.\n")

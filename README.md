@@ -37,23 +37,37 @@ The Python functions live in `course_planner.planning_tools`.
 
 ## 3. Evaluation & Demo Scenarios
 
-Use these scenarios to exercise the planning tools:
+Start a fresh CLI session for each smoke test. The scheduling examples use the Spring 2027 catalog snapshot.
 
-* **Scenario 1: First-Semester Onboarding (Happy Path)**
-* *Profile:* Incoming student with `[]` completed courses, 8-credit limit, interested in `["Backend", "Java"]`.
-* *Expected Behavior:* Validates `INFO 5100`, its zero-credit `INFO 5101` Online lab, and `CSYE 6200` together against
-  the 8-credit cap and class times.
+```powershell
+uv run python src/course_planner/agent.py
+```
 
+### Scenario 1 — First-semester course plan
 
-* **Scenario 2: Prerequisite Conflict & Self-Correction**
-* *Profile:* Second-semester student who completed `INFO 5100` and requests Cloud Computing (`CSYE 6225`).
-* *Expected Behavior:* `check_prerequisites` asks for the missing grade through its result. A grade of `B-` or higher in
-  either `INFO 5100` or `CSYE 6200` satisfies the requirement.
+> I'm a new Boston MS-SES student starting in Spring 2027. I haven't taken any courses yet. I want to learn Java and
+> backend databases. Can you schedule CSYE 6200 and DAMG 6210 for a total of 8 credits?
 
+**Pass when** the assistant calls `validate_course_plan` before presenting a conflict-free 8-credit schedule with
+Boston sections for both courses.
 
-* **Scenario 3: Credit Overload & Graduation Requirement Guardrail**
-* *Profile:* Graduating student with an 8-credit cap proposes 12 elective credits and has yet to take `CSYE 7230`.
-* *Expected Behavior:* `validate_course_plan` reports the overload and lists `CSYE 7230` in the remaining core requirements.
+### Scenario 2 — Missing prerequisite grade
+
+> I'm in my second semester and have completed INFO 5100. Do I meet the prerequisite for CSYE 6225?
+
+When the assistant asks for the INFO 5100 grade, reply `B-`.
+
+**Pass when** the assistant uses `check_prerequisites` to identify the missing grade, asks for it, then rechecks and
+confirms prerequisite eligibility after receiving `B-`.
+
+### Scenario 3 — Credit overload and remaining core requirements
+
+> I plan to graduate in Spring 2027 and can take at most 8 credits this term. I've completed CSYE 6200 (A-) and
+> INFO 6205 (B). Please review my proposed schedule of INFO 6105, CSYE 7380, and DAMG 6210. Can I take these three
+> courses together, and which core requirements are still outstanding based on the courses I listed?
+
+**Pass when** the assistant sends all three proposed courses to `validate_course_plan`, reports that 12 credits exceed
+the student's 8-credit limit, and identifies `CSYE 7230` as a remaining core course.
 
 ## 4. Course Data Pipeline
 

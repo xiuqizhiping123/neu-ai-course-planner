@@ -6,8 +6,8 @@ from pathlib import Path
 from typing import Any
 
 from langchain_core.callbacks import BaseCallbackHandler
-from langchain_core.messages import BaseMessage
-from langchain_core.outputs import LLMResult
+from langchain_core.messages import AIMessage, BaseMessage
+from langchain_core.outputs import ChatGeneration, LLMResult
 
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
@@ -64,28 +64,34 @@ class AgentObservabilityHandler(BaseCallbackHandler):
                 content_preview = msg.content
 
             entry: dict[str, Any] = {"role": msg.type, "content": content_preview}
-            if getattr(msg, "tool_calls", None):
+            if isinstance(msg, AIMessage) and msg.tool_calls:
                 entry["tool_calls"] = msg.tool_calls
             formatted_msgs.append(entry)
 
         logger.info(
             "[%s] LLM Request | Messages:\n%s",
             self.thread_id,
-            json.dumps(formatted_msgs, ensure_ascii=False, indent=2),
+            json.dumps(formatted_msgs, ensure_ascii=False, indent=2, default=str),
         )
 
     def on_llm_end(self, response: LLMResult, **kwargs: Any) -> None:
         run_id = str(kwargs.get("run_id", "default"))
         start_time = self._start_times.pop(run_id, None)
-        elapsed = time.perf_counter() - start_time if start_time else 0.0
+        elapsed = (
+            time.perf_counter() - start_time if start_time is not None else 0.0
+        )
 
-        gen = response.generations[0][0]
-        msg = getattr(gen, "message", None)
-        output_text = gen.text
-        tool_calls = getattr(msg, "tool_calls", []) if msg else []
+        generation = next(
+            (item for batch in response.generations for item in batch), None
+        )
+        ai_message = None
+        if isinstance(generation, ChatGeneration) and isinstance(
+            generation.message, AIMessage
+        ):
+            ai_message = generation.message
 
         token_usage = (
-            getattr(msg, "usage_metadata", None)
+            (ai_message.usage_metadata if ai_message is not None else None)
             or (response.llm_output.get("token_usage") if response.llm_output else None)
             or {}
         )
@@ -93,14 +99,14 @@ class AgentObservabilityHandler(BaseCallbackHandler):
         payload = {
             "duration_sec": round(elapsed, 2),
             "token_usage": token_usage,
-            "content": output_text,
-            "tool_calls": tool_calls,
+            "content": generation.text if generation is not None else "",
+            "tool_calls": ai_message.tool_calls if ai_message is not None else [],
         }
 
         logger.info(
             "[%s] LLM Response:\n%s",
             self.thread_id,
-            json.dumps(payload, ensure_ascii=False, indent=2),
+            json.dumps(payload, ensure_ascii=False, indent=2, default=str),
         )
 
     def on_llm_error(self, error: BaseException, **kwargs: Any) -> None:

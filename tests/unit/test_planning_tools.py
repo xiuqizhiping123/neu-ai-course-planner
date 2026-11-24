@@ -104,3 +104,30 @@ def test_plan_finds_online_corequisite_without_conflicts(catalog: dict[str, Any]
     assert not validate({**request, "proposed_courses": ["CSYE 6200", "csye 6200"]})[
         "valid"
     ]
+
+
+def test_tool_argument_validation(catalog: dict[str, Any]):
+    check = planning_tools.check_prerequisites.invoke
+    validate = planning_tools.validate_course_plan.invoke
+
+    with pytest.raises(ValueError, match="target_course"):
+        check({"completed_courses": [], "target_course": "   "})
+
+    with pytest.raises(ValueError, match="Invalid grade"):
+        check({
+            "completed_courses": ["INFO 5100"],
+            "target_course": "CSYE 6225",
+            "grades": {"INFO 5100": "85"},
+        })
+
+    with pytest.raises(ValueError, match="proposed_courses"):
+        validate({"student_profile": {}, "proposed_courses": []})
+
+    with pytest.raises(ValueError):
+        validate({"student_profile": {"max_credits": True}, "proposed_courses": ["CSYE 6200"]})
+
+    with pytest.raises(ValueError):
+        validate({
+            "student_profile": {"unknown_field": 1},
+            "proposed_courses": ["CSYE 6200"],
+        })

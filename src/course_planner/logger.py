@@ -1,3 +1,4 @@
+import json
 import logging
 import time
 from logging.handlers import RotatingFileHandler
@@ -5,14 +6,16 @@ from pathlib import Path
 from typing import Any
 
 from langchain_core.callbacks import BaseCallbackHandler
+from langchain_core.messages import BaseMessage
 from langchain_core.outputs import LLMResult
 
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
 
 
-def setup_logger(name: str = "course_planner",
-                 level: int = logging.INFO) -> logging.Logger:
+def setup_logger(
+    name: str = "course_planner", level: int = logging.INFO
+) -> logging.Logger:
     logger = logging.getLogger(name)
     logger.setLevel(level)
 
@@ -42,28 +45,73 @@ logger = setup_logger()
 class AgentObservabilityHandler(BaseCallbackHandler):
     def __init__(self, thread_id: str = "unknown"):
         self.thread_id = thread_id
-        self.llm_start_time = 0.0
+        self._start_times: dict[str, float] = {}
 
-    def on_llm_start(
-        self, serialized: dict[str, Any], prompts: list[str], **kwargs: Any
+    def on_chat_model_start(
+        self,
+        serialized: dict[str, Any],
+        messages: list[list[BaseMessage]],
+        **kwargs: Any,
     ) -> None:
-        self.llm_start_time = time.perf_counter()
+        run_id = str(kwargs.get("run_id", "default"))
+        self._start_times[run_id] = time.perf_counter()
+        batch = messages[0] if messages else []
+        formatted_msgs = []
+        for idx, msg in enumerate(batch):
+            if idx == 0 and msg.type == "system":
+                content_preview = f"<SystemPrompt len={len(str(msg.content))}>"
+            else:
+                content_preview = msg.content
+
+            entry: dict[str, Any] = {"role": msg.type, "content": content_preview}
+            if getattr(msg, "tool_calls", None):
+                entry["tool_calls"] = msg.tool_calls
+            formatted_msgs.append(entry)
+
+        logger.info(
+            "[%s] LLM Request | Messages:\n%s",
+            self.thread_id,
+            json.dumps(formatted_msgs, ensure_ascii=False, indent=2),
+        )
 
     def on_llm_end(self, response: LLMResult, **kwargs: Any) -> None:
-        elapsed = time.perf_counter() - self.llm_start_time
+        run_id = str(kwargs.get("run_id", "default"))
+        start_time = self._start_times.pop(run_id, None)
+        elapsed = time.perf_counter() - start_time if start_time else 0.0
+
+        gen = response.generations[0][0]
+        msg = getattr(gen, "message", None)
+        output_text = gen.text
+        tool_calls = getattr(msg, "tool_calls", []) if msg else []
+
         token_usage = (
-            response.llm_output.get("token_usage", {})
-            if response.llm_output
-            else {}
+            getattr(msg, "usage_metadata", None)
+            or (response.llm_output.get("token_usage") if response.llm_output else None)
+            or {}
         )
+
+        payload = {
+            "duration_sec": round(elapsed, 2),
+            "token_usage": token_usage,
+            "content": output_text,
+            "tool_calls": tool_calls,
+        }
+
         logger.info(
-            "[%s] LLM call completed | Duration: %.2fs | Token usage: %s",
-            self.thread_id, elapsed, token_usage,
+            "[%s] LLM Response:\n%s",
+            self.thread_id,
+            json.dumps(payload, ensure_ascii=False, indent=2),
         )
 
     def on_llm_error(self, error: BaseException, **kwargs: Any) -> None:
+        run_id = str(kwargs.get("run_id", "default"))
+        self._start_times.pop(run_id, None)
         logger.error("[%s] LLM call failed: %s", self.thread_id, error, exc_info=error)
 
+    def on_tool_end(self, output: Any, **kwargs: Any) -> None:
+        logger.info("[%s] Tool Output: %s", self.thread_id, str(output)[:1000])
+
     def on_tool_error(self, error: BaseException, **kwargs: Any) -> None:
-        logger.error("[%s] Tool execution failed: %s", self.thread_id, error,
-                     exc_info=error)
+        logger.error(
+            "[%s] Tool execution failed: %s", self.thread_id, error, exc_info=error
+        )

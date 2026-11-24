@@ -1,0 +1,51 @@
+{
+  "fmt": 
+  [
+    {
+      "category": "01",
+      "class": "net.hedtech.banner.student.schedule.SectionSessionDecorator",
+      "courseReferenceNumber": "35367",
+      "faculty": 
+      [
+        {
+          "bannerId": "56002",
+          "category": "01",
+          "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
+          "courseReferenceNumber": "35367",
+          "displayName": "Zhao, Yizhen",
+          "emailAddress": null,
+          "primaryIndicator": true,
+          "term": "202730"
+        }
+      ],
+      "meetingTime": {
+        "beginTime": "1635",
+        "building": "RY",
+        "buildingDescription": "Ryder Hall",
+        "campus": "BOS",
+        "campusDescription": "Boston",
+        "category": "01",
+        "class": "net.hedtech.banner.general.overall.MeetingTimeDecorator",
+        "courseReferenceNumber": "35367",
+        "creditHourSession": 4.0,
+        "endDate": "05/02/2027",
+        "endTime": "2005",
+        "friday": false,
+        "hoursWeek": 3.5,
+        "meetingScheduleType": "LEC",
+        "meetingType": "CLAS",
+        "meetingTypeDescription": "Class",
+        "monday": false,
+        "room": "153",
+        "saturday": false,
+        "startDate": "01/13/2027",
+        "sunday": false,
+        "term": "202730",
+        "thursday": true,
+        "tuesday": false,
+        "wednesday": false
+      },
+      "term": "202730"
+    }
+  ]
+}

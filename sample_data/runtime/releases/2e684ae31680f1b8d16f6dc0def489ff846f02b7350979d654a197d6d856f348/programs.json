@@ -1,0 +1,48 @@
+[
+  {
+    "program_id": "ms-ses-boston",
+    "campus": "Boston",
+    "catalog_year": "2026-2027",
+    "option": "coursework",
+    "total_required_credits": 32,
+    "minimum_gpa": 3.0,
+    "minimum_core_grade": "C",
+    "required_courses": [
+      {
+        "course_code": "CSYE 6200",
+        "credits": 4.0
+      },
+      {
+        "course_code": "CSYE 7230",
+        "credits": 4.0
+      },
+      {
+        "course_code": "INFO 6205",
+        "credits": 4.0
+      }
+    ],
+    "electives": {
+      "minimum_credits": 20,
+      "minimum_credits_by_subject": {
+        "CSYE": 8
+      },
+      "subjects": [
+        "CSYE",
+        "DAMG",
+        "INFO",
+        "TELE"
+      ],
+      "excluded_courses": [
+        "INFO 6250"
+      ]
+    },
+    "document": "program_requirements.md",
+    "source": {
+      "path": "catalog/ms-ses-boston.html",
+      "url": "https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/software-engineering-systems-ms/",
+      "fetched_at": "2026-11-22T23:34:56.214703+00:00",
+      "sha256": "865222ae97b5c2261ad46d4fc27fead380b8289772bc0113761f321045618acc",
+      "record": "#programrequirementstextcontainer"
+    }
+  }
+]

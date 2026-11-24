@@ -1,0 +1,51 @@
+{
+  "fmt": 
+  [
+    {
+      "category": "01",
+      "class": "net.hedtech.banner.student.schedule.SectionSessionDecorator",
+      "courseReferenceNumber": "42128",
+      "faculty": 
+      [
+        {
+          "bannerId": "67140",
+          "category": "01",
+          "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
+          "courseReferenceNumber": "42128",
+          "displayName": "Konstantopoulos, Constantin",
+          "emailAddress": null,
+          "primaryIndicator": true,
+          "term": "202730"
+        }
+      ],
+      "meetingTime": {
+        "beginTime": "1430",
+        "building": "RY",
+        "buildingDescription": "Ryder Hall",
+        "campus": "BOS",
+        "campusDescription": "Boston",
+        "category": "01",
+        "class": "net.hedtech.banner.general.overall.MeetingTimeDecorator",
+        "courseReferenceNumber": "42128",
+        "creditHourSession": 4.0,
+        "endDate": "05/02/2027",
+        "endTime": "1630",
+        "friday": false,
+        "hoursWeek": 4.0,
+        "meetingScheduleType": "LEC",
+        "meetingType": "CLAS",
+        "meetingTypeDescription": "Class",
+        "monday": true,
+        "room": "155",
+        "saturday": false,
+        "startDate": "01/13/2027",
+        "sunday": false,
+        "term": "202730",
+        "thursday": false,
+        "tuesday": false,
+        "wednesday": true
+      },
+      "term": "202730"
+    }
+  ]
+}

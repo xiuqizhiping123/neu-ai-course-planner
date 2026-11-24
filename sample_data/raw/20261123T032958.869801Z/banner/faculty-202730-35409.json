@@ -1,0 +1,51 @@
+{
+  "fmt": 
+  [
+    {
+      "category": "01",
+      "class": "net.hedtech.banner.student.schedule.SectionSessionDecorator",
+      "courseReferenceNumber": "35409",
+      "faculty": 
+      [
+        {
+          "bannerId": "67125",
+          "category": "01",
+          "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
+          "courseReferenceNumber": "35409",
+          "displayName": "Bugrara, Khaled",
+          "emailAddress": null,
+          "primaryIndicator": true,
+          "term": "202730"
+        }
+      ],
+      "meetingTime": {
+        "beginTime": "1450",
+        "building": "ISEC",
+        "buildingDescription": "Science Engineering Complex",
+        "campus": "BOS",
+        "campusDescription": "Boston",
+        "category": "01",
+        "class": "net.hedtech.banner.general.overall.MeetingTimeDecorator",
+        "courseReferenceNumber": "35409",
+        "creditHourSession": 4.0,
+        "endDate": "05/02/2027",
+        "endTime": "1810",
+        "friday": false,
+        "hoursWeek": 3.33,
+        "meetingScheduleType": "LEC",
+        "meetingType": "CLAS",
+        "meetingTypeDescription": "Class",
+        "monday": true,
+        "room": "102",
+        "saturday": false,
+        "startDate": "01/13/2027",
+        "sunday": false,
+        "term": "202730",
+        "thursday": false,
+        "tuesday": false,
+        "wednesday": false
+      },
+      "term": "202730"
+    }
+  ]
+}

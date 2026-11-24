@@ -1,0 +1,167 @@
+[
+  {
+    "kind": "course_requirements",
+    "course_code": "DAMG 7250",
+    "field": "prerequisites",
+    "status": "parsed",
+    "raw": [
+      "CSYE 6200 with a minimum grade of B or DAMG 6105 with a minimum grade of B or DAMG 6210 with a minimum grade of B or INFO 5100 with a minimum grade of B or INFO 6210 with a minimum grade of B"
+    ],
+    "missing_courses": [
+      "INFO 6210"
+    ],
+    "source": {
+      "path": "catalog/damg.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/damg/",
+      "fetched_at": "2026-11-22T23:34:55.392232+00:00",
+      "sha256": "73ad9b6238a6cdc4c8c02cf0858205ae27321ad99afa36764e86aa773f0881aa",
+      "record": "DAMG 7250"
+    }
+  },
+  {
+    "kind": "course_requirements",
+    "course_code": "DAMG 7275",
+    "field": "prerequisites",
+    "status": "parsed",
+    "raw": [
+      "DAMG 6210 with a minimum grade of B or INFO 6210 with a minimum grade of B"
+    ],
+    "missing_courses": [
+      "INFO 6210"
+    ],
+    "source": {
+      "path": "catalog/damg.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/damg/",
+      "fetched_at": "2026-11-22T23:34:55.392232+00:00",
+      "sha256": "73ad9b6238a6cdc4c8c02cf0858205ae27321ad99afa36764e86aa773f0881aa",
+      "record": "DAMG 7275"
+    }
+  },
+  {
+    "kind": "course_requirements",
+    "course_code": "DAMG 7290",
+    "field": "prerequisites",
+    "status": "parsed",
+    "raw": [
+      "DAMG 6210 with a minimum grade of B or DAMG 7275 with a minimum grade of B or INFO 6205 with a minimum grade of B or INFO 6210 with a minimum grade of B"
+    ],
+    "missing_courses": [
+      "INFO 6210"
+    ],
+    "source": {
+      "path": "catalog/damg.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/damg/",
+      "fetched_at": "2026-11-22T23:34:55.392232+00:00",
+      "sha256": "73ad9b6238a6cdc4c8c02cf0858205ae27321ad99afa36764e86aa773f0881aa",
+      "record": "DAMG 7290"
+    }
+  },
+  {
+    "kind": "course_requirements",
+    "course_code": "DAMG 7325",
+    "field": "prerequisites",
+    "status": "needs_review",
+    "raw": [
+      "DAMG 6105 with a minimum grade of B ; (DAMG 6210 with a minimum grade of B or INFO 6210 with a minimum grade of B )"
+    ],
+    "missing_courses": [
+      "INFO 6210"
+    ],
+    "source": {
+      "path": "catalog/damg.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/damg/",
+      "fetched_at": "2026-11-22T23:34:55.392232+00:00",
+      "sha256": "73ad9b6238a6cdc4c8c02cf0858205ae27321ad99afa36764e86aa773f0881aa",
+      "record": "DAMG 7325"
+    }
+  },
+  {
+    "kind": "course_requirements",
+    "course_code": "DAMG 7370",
+    "field": "prerequisites",
+    "status": "parsed",
+    "raw": [
+      "DAMG 6210 with a minimum grade of B or INFO 6210 with a minimum grade of B"
+    ],
+    "missing_courses": [
+      "INFO 6210"
+    ],
+    "source": {
+      "path": "catalog/damg.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/damg/",
+      "fetched_at": "2026-11-22T23:34:55.392232+00:00",
+      "sha256": "73ad9b6238a6cdc4c8c02cf0858205ae27321ad99afa36764e86aa773f0881aa",
+      "record": "DAMG 7370"
+    }
+  },
+  {
+    "kind": "course_requirements",
+    "course_code": "ENCP 2000",
+    "field": "prerequisites",
+    "status": "parsed",
+    "raw": [
+      "GE 1000 with a minimum grade of D- or ARCH 1000 with a minimum grade of D- or BIOL 1000 with a minimum grade of D- or BUSN 1102 with a minimum grade of D- or CHEM 1000 with a minimum grade of D- or CS 1200 with a minimum grade of D- or ENVR 1000 with a minimum grade of D- or FSEM 1000 with a minimum grade of D- or GENS 1102 with a minimum grade of D- or INPR 1000 with a minimum grade of D- or MATH 1000 with a minimum grade of D- or PHYS 1000 with a minimum grade of D-"
+    ],
+    "missing_courses": [
+      "ARCH 1000",
+      "BIOL 1000",
+      "BUSN 1102",
+      "CHEM 1000",
+      "CS 1200",
+      "ENVR 1000",
+      "FSEM 1000",
+      "GE 1000",
+      "GENS 1102",
+      "INPR 1000",
+      "MATH 1000",
+      "PHYS 1000"
+    ],
+    "source": {
+      "path": "catalog/encp.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/encp/",
+      "fetched_at": "2026-11-22T23:34:55.690713+00:00",
+      "sha256": "f9ef75b32346fa4aa04d6d39271fefcb9fae810c927038052f8072b5f33e861c",
+      "record": "ENCP 2000"
+    }
+  },
+  {
+    "kind": "course_requirements",
+    "course_code": "ENCP 3000",
+    "field": "prerequisites",
+    "status": "parsed",
+    "raw": [
+      "BIOE 2000 with a minimum grade of D- or CHME 2000 with a minimum grade of D- or CIVE 2000 with a minimum grade of D- or EECE 2000 with a minimum grade of D- or ENCP 2000 with a minimum grade of D- or MEIE 2000 with a minimum grade of D-"
+    ],
+    "missing_courses": [
+      "BIOE 2000",
+      "CHME 2000",
+      "CIVE 2000",
+      "EECE 2000",
+      "MEIE 2000"
+    ],
+    "source": {
+      "path": "catalog/encp.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/encp/",
+      "fetched_at": "2026-11-22T23:34:55.690713+00:00",
+      "sha256": "f9ef75b32346fa4aa04d6d39271fefcb9fae810c927038052f8072b5f33e861c",
+      "record": "ENCP 3000"
+    }
+  },
+  {
+    "kind": "course_requirements",
+    "course_code": "TELE 6350",
+    "field": "prerequisites",
+    "status": "needs_review",
+    "raw": [
+      "TELE 5330 with a minimum grade of B- ; TELE 5600 with a minimum grade of B-"
+    ],
+    "missing_courses": [],
+    "source": {
+      "path": "catalog/tele.html",
+      "url": "https://catalog.northeastern.edu/course-descriptions/tele/",
+      "fetched_at": "2026-11-22T23:34:55.933025+00:00",
+      "sha256": "4e51d434279c5d1ad47a51e8599fc24ad3bae5515d9bdb9bdd299671920c8264",
+      "record": "TELE 6350"
+    }
+  }
+]

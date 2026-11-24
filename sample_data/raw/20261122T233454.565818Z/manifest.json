@@ -1,0 +1,250 @@
+{
+  "term": "2027301",
+  "sources": [
+    "catalog",
+    "banner",
+    "searchneu"
+  ],
+  "started_at": "2026-11-22T23:34:54.565872+00:00",
+  "complete": true,
+  "files": [
+    {
+      "source": "catalog",
+      "path": "catalog/info.html",
+      "method": "GET",
+      "url": "https://catalog.northeastern.edu/course-descriptions/info/",
+      "final_url": "https://catalog.northeastern.edu/course-descriptions/info/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:54.905843+00:00",
+      "bytes": 88190,
+      "sha256": "d5e83022f933a621eb6bd41a38b818df7d45338fc981025f7863f21a54d1ff36"
+    },
+    {
+      "source": "catalog",
+      "path": "catalog/csye.html",
+      "method": "GET",
+      "url": "https://catalog.northeastern.edu/course-descriptions/csye/",
+      "final_url": "https://catalog.northeastern.edu/course-descriptions/csye/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:55.160731+00:00",
+      "bytes": 67512,
+      "sha256": "36441e34e8dca3359733a8203d19ed7b7004731baf41d7c52b8c2247cae9893d"
+    },
+    {
+      "source": "catalog",
+      "path": "catalog/damg.html",
+      "method": "GET",
+      "url": "https://catalog.northeastern.edu/course-descriptions/damg/",
+      "final_url": "https://catalog.northeastern.edu/course-descriptions/damg/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:55.392232+00:00",
+      "bytes": 60814,
+      "sha256": "73ad9b6238a6cdc4c8c02cf0858205ae27321ad99afa36764e86aa773f0881aa"
+    },
+    {
+      "source": "catalog",
+      "path": "catalog/encp.html",
+      "method": "GET",
+      "url": "https://catalog.northeastern.edu/course-descriptions/encp/",
+      "final_url": "https://catalog.northeastern.edu/course-descriptions/encp/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:55.690713+00:00",
+      "bytes": 45203,
+      "sha256": "f9ef75b32346fa4aa04d6d39271fefcb9fae810c927038052f8072b5f33e861c"
+    },
+    {
+      "source": "catalog",
+      "path": "catalog/tele.html",
+      "method": "GET",
+      "url": "https://catalog.northeastern.edu/course-descriptions/tele/",
+      "final_url": "https://catalog.northeastern.edu/course-descriptions/tele/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:55.933025+00:00",
+      "bytes": 55627,
+      "sha256": "4e51d434279c5d1ad47a51e8599fc24ad3bae5515d9bdb9bdd299671920c8264"
+    },
+    {
+      "source": "catalog",
+      "path": "catalog/ms-ses-boston.html",
+      "method": "GET",
+      "url": "https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/software-engineering-systems-ms/",
+      "final_url": "https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/software-engineering-systems-ms/",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:56.214703+00:00",
+      "bytes": 44218,
+      "sha256": "865222ae97b5c2261ad46d4fc27fead380b8289772bc0113761f321045618acc"
+    },
+    {
+      "source": "banner",
+      "path": "banner/INFO-term.json",
+      "method": "POST",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/term/search?mode=search",
+      "final_url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/term/search?mode=search",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:56.368384+00:00",
+      "bytes": 69,
+      "sha256": "cec56e90ba40abaa2e563a2f14d7b7e2f080237cee0476b36b6e4bf431b3da4a",
+      "form": {
+        "term": "202730",
+        "studyPath": "",
+        "studyPathText": "",
+        "startDatepicker": "",
+        "endDatepicker": ""
+      }
+    },
+    {
+      "source": "banner",
+      "path": "banner/INFO-00000.json",
+      "method": "GET",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "final_url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:57.122279+00:00",
+      "bytes": 297475,
+      "sha256": "2201dcef0db9e83782968adb6682d7aa34db6cff5ff2cfd526eb1324ead61813"
+    },
+    {
+      "source": "banner",
+      "path": "banner/CSYE-term.json",
+      "method": "POST",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/term/search?mode=search",
+      "final_url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/term/search?mode=search",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:57.254363+00:00",
+      "bytes": 69,
+      "sha256": "cec56e90ba40abaa2e563a2f14d7b7e2f080237cee0476b36b6e4bf431b3da4a",
+      "form": {
+        "term": "202730",
+        "studyPath": "",
+        "studyPathText": "",
+        "startDatepicker": "",
+        "endDatepicker": ""
+      }
+    },
+    {
+      "source": "banner",
+      "path": "banner/CSYE-00000.json",
+      "method": "GET",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "final_url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:58.242143+00:00",
+      "bytes": 112079,
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894"
+    },
+    {
+      "source": "banner",
+      "path": "banner/DAMG-term.json",
+      "method": "POST",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/term/search?mode=search",
+      "final_url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/term/search?mode=search",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:58.387651+00:00",
+      "bytes": 69,
+      "sha256": "cec56e90ba40abaa2e563a2f14d7b7e2f080237cee0476b36b6e4bf431b3da4a",
+      "form": {
+        "term": "202730",
+        "studyPath": "",
+        "studyPathText": "",
+        "startDatepicker": "",
+        "endDatepicker": ""
+      }
+    },
+    {
+      "source": "banner",
+      "path": "banner/DAMG-00000.json",
+      "method": "GET",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=DAMG&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "final_url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=DAMG&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "fetched_at": "2026-11-22T23:34:59.266796+00:00",
+      "bytes": 69374,
+      "sha256": "9d22ab76f47ed627d3087b16cf37ec314a485b191d1d1acfcbeab6cd4086875a"
+    },
+    {
+      "source": "searchneu",
+      "path": "searchneu/INFO-5100.html",
+      "method": "GET",
+      "url": "https://searchneu.com/catalog/2027301/INFO%205100",
+      "final_url": "https://searchneu.com/catalog/2027301/INFO%205100",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "fetched_at": "2026-11-22T23:34:59.491019+00:00",
+      "bytes": 139257,
+      "sha256": "31b6e00d353a0b822226abb1f7dface91be05cc11e4e760fe81894922306b9c6"
+    },
+    {
+      "source": "searchneu",
+      "path": "searchneu/INFO-5101.html",
+      "method": "GET",
+      "url": "https://searchneu.com/catalog/2027301/INFO%205101",
+      "final_url": "https://searchneu.com/catalog/2027301/INFO%205101",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "fetched_at": "2026-11-22T23:34:59.700780+00:00",
+      "bytes": 131287,
+      "sha256": "85f36f077efeb45466cdec463caf92e21fbefd0d7ae5bcce4d3763757e6f953b"
+    },
+    {
+      "source": "searchneu",
+      "path": "searchneu/CSYE-6200.html",
+      "method": "GET",
+      "url": "https://searchneu.com/catalog/2027301/CSYE%206200",
+      "final_url": "https://searchneu.com/catalog/2027301/CSYE%206200",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "fetched_at": "2026-11-22T23:34:59.957893+00:00",
+      "bytes": 126456,
+      "sha256": "d9b7d8073231a426ac19c3d973233bab6371992c8b98ed1548430d00c62b68f5"
+    },
+    {
+      "source": "searchneu",
+      "path": "searchneu/CSYE-6225.html",
+      "method": "GET",
+      "url": "https://searchneu.com/catalog/2027301/CSYE%206225",
+      "final_url": "https://searchneu.com/catalog/2027301/CSYE%206225",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "fetched_at": "2026-11-22T23:35:00.160213+00:00",
+      "bytes": 126817,
+      "sha256": "5e02e64ddc1e38b8ef3b4c1b6becde2159c004f70770b0822399eed5e60d7f41"
+    },
+    {
+      "source": "searchneu",
+      "path": "searchneu/CSYE-7230.html",
+      "method": "GET",
+      "url": "https://searchneu.com/catalog/2027301/CSYE%207230",
+      "final_url": "https://searchneu.com/catalog/2027301/CSYE%207230",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "fetched_at": "2026-11-22T23:35:00.414631+00:00",
+      "bytes": 122860,
+      "sha256": "fa76f0c9e39ac4bc8e2ad71eb2411c5dedda3e4fa9633b4d4730a0932a7ba268"
+    },
+    {
+      "source": "searchneu",
+      "path": "searchneu/INFO-6205.html",
+      "method": "GET",
+      "url": "https://searchneu.com/catalog/2027301/INFO%206205",
+      "final_url": "https://searchneu.com/catalog/2027301/INFO%206205",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "fetched_at": "2026-11-22T23:35:00.591781+00:00",
+      "bytes": 137729,
+      "sha256": "740018904c7d8ae23db71bd8105b334505ca7e0c6b1a8dc0e27f16970a4b94ae"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,51 @@
+{
+  "fmt": 
+  [
+    {
+      "category": "01",
+      "class": "net.hedtech.banner.student.schedule.SectionSessionDecorator",
+      "courseReferenceNumber": "35502",
+      "faculty": 
+      [
+        {
+          "bannerId": "67137",
+          "category": "01",
+          "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
+          "courseReferenceNumber": "35502",
+          "displayName": "Sieczkowski, Kaleigh",
+          "emailAddress": "sieczkowski.k@northeastern.edu",
+          "primaryIndicator": true,
+          "term": "202730"
+        }
+      ],
+      "meetingTime": {
+        "beginTime": "1635",
+        "building": "RY",
+        "buildingDescription": "Ryder Hall",
+        "campus": "BOS",
+        "campusDescription": "Boston",
+        "category": "01",
+        "class": "net.hedtech.banner.general.overall.MeetingTimeDecorator",
+        "courseReferenceNumber": "35502",
+        "creditHourSession": 4.0,
+        "endDate": "05/02/2027",
+        "endTime": "1955",
+        "friday": false,
+        "hoursWeek": 3.33,
+        "meetingScheduleType": "LEC",
+        "meetingType": "CLAS",
+        "meetingTypeDescription": "Class",
+        "monday": true,
+        "room": "157",
+        "saturday": false,
+        "startDate": "01/13/2027",
+        "sunday": false,
+        "term": "202730",
+        "thursday": false,
+        "tuesday": false,
+        "wednesday": false
+      },
+      "term": "202730"
+    }
+  ]
+}

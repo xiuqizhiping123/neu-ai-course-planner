@@ -1,9 +1,11 @@
 """Deterministic tools for the published Boston MS-SES Coursework catalog."""
 
-from langchain_core.tools import tool
 from collections import Counter, defaultdict
 from datetime import date
 from typing import Any
+
+from langchain_core.tools import tool
+from pydantic import BaseModel, ConfigDict, Field, StrictFloat, StrictInt
 
 from course_planner.catalog_data import load_runtime_data
 
@@ -19,6 +21,30 @@ WEEKDAYS = (
 )
 
 
+class StudentProfile(BaseModel):
+    """Student academic context used to validate a proposed term schedule."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    completed_courses: list[str] = Field(
+        default_factory=list,
+        description="Course codes already completed, e.g. ['CSYE 6200', 'INFO 6205'].",
+    )
+    grades: dict[str, str] = Field(
+        default_factory=dict,
+        description="Optional mapping from course code to letter grade (F through A+).",
+    )
+    max_credits: StrictInt | StrictFloat | None = Field(
+        default=None,
+        ge=0,
+        description="Optional maximum credit limit for the term (nonnegative number).",
+    )
+    program_id: str = Field(
+        default=DEFAULT_PROGRAM,
+        description="Target program identifier (defaults to 'ms-ses-boston').",
+    )
+
+
 def _code(value: str) -> str:
     return " ".join(value.upper().split())
 
@@ -26,10 +52,24 @@ def _code(value: str) -> str:
 def _transcript(
     completed_courses: list[str], grades: dict[str, str] | None
 ) -> dict[str, str | None]:
-    normalized_grades = {
-        _code(code): grade.strip().upper() for code, grade in (grades or {}).items()
-    }
-    codes = map(_code, completed_courses)
+    normalized_grades: dict[str, str] = {}
+    for code, grade in (grades or {}).items():
+        norm_code = _code(code)
+        if not norm_code:
+            raise ValueError("Course codes in grades must be non-empty.")
+        norm_grade = grade.strip().upper()
+        if norm_grade not in GRADE_RANK:
+            valid = ", ".join(GRADE_RANK)
+            raise ValueError(
+                f"Invalid grade {grade!r} for {norm_code}; expected one of: {valid}."
+            )
+        normalized_grades[norm_code] = norm_grade
+    codes = []
+    for raw in completed_courses:
+        norm = _code(raw)
+        if not norm:
+            raise ValueError("completed_courses must not contain empty course codes.")
+        codes.append(norm)
     return {code: normalized_grades.get(code) for code in codes}
 
 
@@ -65,7 +105,18 @@ def _sections(data: dict[str, Any], program: dict[str, Any]) -> list[dict[str, A
 
 @tool
 def get_available_courses(program_id: str = DEFAULT_PROGRAM) -> dict[str, Any]:
-    """List published course rules and Boston or Online sections with snapshot seats."""
+    """List published degree rules, course catalog records, and active sections.
+
+    Args:
+        program_id: Program identifier (defaults to ``'ms-ses-boston'``).
+
+    Returns:
+        Dictionary with ``program`` (degree requirements and credit/grade rules),
+        ``courses`` (catalog metadata and prerequisites), and ``sections``
+        (Boston or Online sections in the active release with snapshot seat counts).
+    """
+    if not program_id.strip():
+        raise ValueError("program_id must be a non-empty string.")
     data = load_runtime_data()
     program = _program(data, program_id)
     courses = {row["course_code"]: row for row in data["courses"]}
@@ -169,11 +220,31 @@ def check_prerequisites(
     grades: dict[str, str] | None = None,
     planned_courses: list[str] | None = None,
 ) -> dict[str, Any]:
-    """Check prerequisites and corequisites with optional grades by course code."""
-    data = load_runtime_data()
+    """Check prerequisite and corequisite eligibility for a single target course.
+
+    Args:
+        completed_courses: Course codes already completed (e.g., ``['INFO 5100']``).
+        target_course: Target course code to check (e.g., ``'CSYE 6225'``).
+        grades: Optional mapping from course code to letter grade (``F`` through ``A+``).
+        planned_courses: Optional list of courses planned concurrently this term.
+
+    Returns:
+        Dictionary containing ``eligible`` (``True``, ``False``, or ``None`` when
+        a required grade or manual review is missing), ``reason``, ``satisfied``,
+        ``missing``, and detailed ``rules`` breakdown.
+    """
     code = _code(target_course)
+    if not code:
+        raise ValueError("target_course must be a non-empty course code.")
+    data = load_runtime_data()
     transcript = _transcript(completed_courses, grades)
-    planned = {_code(course) for course in planned_courses or []} - {code}
+    planned = set()
+    for course in planned_courses or []:
+        norm = _code(course)
+        if not norm:
+            raise ValueError("planned_courses must not contain empty course codes.")
+        if norm != code:
+            planned.add(norm)
     for course in data["courses"]:
         if course["course_code"] == code:
             return _check(course, transcript, planned)
@@ -289,27 +360,39 @@ def _degree_progress(
 
 @tool
 def validate_course_plan(
-    student_profile: dict[str, Any],
+    student_profile: StudentProfile,
     proposed_courses: list[str],
     section_crns: dict[str, str] | None = None,
 ) -> dict[str, Any]:
-    """Check one term and report projected degree progress.
+    """Validate a single-term course plan and report projected degree progress.
 
-    The profile accepts completed_courses, grades, max_credits, and program_id.
-    Optional section_crns pins specific sections by course code. Seat counts
-    describe the snapshot. Individual enrollment policies require separate review.
+    Checks prerequisites, corequisites, duplicate/already-completed courses,
+    section availability, meeting-time conflicts, and the supplied credit limit.
+
+    Args:
+        student_profile: Student academic profile (``completed_courses``, ``grades``,
+            ``max_credits``, ``program_id``).
+        proposed_courses: Non-empty list of course codes proposed for this term.
+        section_crns: Optional mapping from course code to CRN to pin specific sections.
+
+    Returns:
+        Dictionary with ``valid`` (bool), ``issues``, ``warnings``,
+        ``schedule_complete`` (bool), ``checks``, ``sections``, ``credits_min``,
+        ``credits_max``, and ``graduation_progress``.
     """
+    if not proposed_courses:
+        raise ValueError("proposed_courses must contain at least one course code.")
+    normalized_proposed = [_code(course) for course in proposed_courses]
+    if any(not code for code in normalized_proposed):
+        raise ValueError("proposed_courses must not contain empty course codes.")
+
     data = load_runtime_data()
-    program = _program(data, student_profile.get("program_id", DEFAULT_PROGRAM))
+    program = _program(data, student_profile.program_id)
     courses = {row["course_code"]: row for row in data["courses"]}
-    transcript = _transcript(
-        student_profile.get("completed_courses", []), student_profile.get("grades")
-    )
-    counts = Counter(_code(course) for course in proposed_courses)
-    pinned = {_code(code): crn for code, crn in (section_crns or {}).items()}
-    cap = student_profile.get("max_credits")
-    if cap is not None and (not isinstance(cap, (int, float)) or not cap >= 0):
-        raise ValueError("max_credits must be a nonnegative number")
+    transcript = _transcript(student_profile.completed_courses, student_profile.grades)
+    counts = Counter(normalized_proposed)
+    pinned = {_code(code): crn.strip() for code, crn in (section_crns or {}).items()}
+    cap = student_profile.max_credits
     issues = []
     warnings = []
     checks = {}

@@ -1,0 +1,1392 @@
+[
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35332",
+    "course_code": "CSYE 6200",
+    "section_number": "02",
+    "campus": "Boston",
+    "instructors": [
+      "Peters, Daniel"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 25,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "friday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "296",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35332"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35339",
+    "course_code": "CSYE 6220",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Ozbek, Yusuf"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 30,
+    "waitlist_available": 0,
+    "meetings": [
+      {
+        "days": [
+          "wednesday",
+          "friday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "296",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35339"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35340",
+    "course_code": "CSYE 6225",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Parikh, Tejas"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 10,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Richards Hall",
+        "room": "226",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35340"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "37604",
+    "course_code": "CSYE 6300",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Peters, Daniel"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 10,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "tuesday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "155",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "37604"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35348",
+    "course_code": "CSYE 7105",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Liu, Handan"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 27,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "tuesday",
+          "friday"
+        ],
+        "start_time": "13:35",
+        "end_time": "15:15",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "431",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35348"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35350",
+    "course_code": "CSYE 7200",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Hillyard, Robin"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 28,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday",
+          "thursday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Snell Library",
+        "room": "125",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35350"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "42560",
+    "course_code": "CSYE 7220",
+    "section_number": "02",
+    "campus": "Boston",
+    "instructors": [
+      "Konstantopoulos, Constantin"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 30,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday",
+          "thursday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "235",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "42560"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35356",
+    "course_code": "CSYE 7280",
+    "section_number": "02",
+    "campus": "Boston",
+    "instructors": [
+      "Chawla, Vishal"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 25,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "wednesday"
+        ],
+        "start_time": "18:10",
+        "end_time": "21:40",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Hurtig Hall",
+        "room": "308",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35356"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35362",
+    "course_code": "CSYE 7374",
+    "section_number": "04",
+    "campus": "Boston",
+    "instructors": [
+      "Ozbek, Yusuf"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": 4,
+    "credits_min": 1,
+    "credits_max": 4,
+    "capacity": 30,
+    "seats_available": 27,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Hurtig Hall",
+        "room": "308",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35362"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "42112",
+    "course_code": "CSYE 7374",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Hillyard, Robin"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": 4,
+    "credits_min": 1,
+    "credits_max": 4,
+    "capacity": 30,
+    "seats_available": 28,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "tuesday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Hastings Suite",
+        "room": "108",
+        "type": "Class"
+      },
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "14:50",
+        "end_time": "16:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Hastings Suite",
+        "room": "108",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "42112"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35365",
+    "course_code": "CSYE 7380",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Yu, Chen-Hsiang"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 25,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "wednesday",
+          "friday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "153",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35365"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35367",
+    "course_code": "CSYE 7380",
+    "section_number": "03",
+    "campus": "Boston",
+    "instructors": [
+      "Zhao, Yizhen"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 12,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "16:35",
+        "end_time": "20:05",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "153",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/CSYE-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=CSYE&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:06.868919+00:00",
+      "sha256": "2eba86130bb2b7ae7ddcabc49d9cb411485914027739a5c12ceb5b759aa1e894",
+      "record": "35367"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35371",
+    "course_code": "DAMG 6105",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Pan, Hong"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 26,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "18:10",
+        "end_time": "21:40",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Dodge Hall",
+        "room": "140",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/DAMG-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=DAMG&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:09.659916+00:00",
+      "sha256": "9d22ab76f47ed627d3087b16cf37ec314a485b191d1d1acfcbeab6cd4086875a",
+      "record": "35371"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35374",
+    "course_code": "DAMG 6210",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Montrond, Manuel"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 20,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday"
+        ],
+        "start_time": "18:10",
+        "end_time": "21:40",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Hurtig Hall",
+        "room": "310",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/DAMG-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=DAMG&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:09.659916+00:00",
+      "sha256": "9d22ab76f47ed627d3087b16cf37ec314a485b191d1d1acfcbeab6cd4086875a",
+      "record": "35374"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35379",
+    "course_code": "DAMG 6210",
+    "section_number": "06",
+    "campus": "Boston",
+    "instructors": [
+      "Ozbek, Yusuf"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 24,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday",
+          "thursday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Hayden Hall",
+        "room": "424",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/DAMG-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=DAMG&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:09.659916+00:00",
+      "sha256": "9d22ab76f47ed627d3087b16cf37ec314a485b191d1d1acfcbeab6cd4086875a",
+      "record": "35379"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35387",
+    "course_code": "DAMG 7245",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Krishnamurthy, Srikanth"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 22,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "friday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "435",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/DAMG-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=DAMG&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:09.659916+00:00",
+      "sha256": "9d22ab76f47ed627d3087b16cf37ec314a485b191d1d1acfcbeab6cd4086875a",
+      "record": "35387"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35394",
+    "course_code": "DAMG 7370",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Kuragayala, Naveen"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 22,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Richards Hall",
+        "room": "226",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/DAMG-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=DAMG&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:09.659916+00:00",
+      "sha256": "9d22ab76f47ed627d3087b16cf37ec314a485b191d1d1acfcbeab6cd4086875a",
+      "record": "35394"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35409",
+    "course_code": "INFO 5100",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Bugrara, Khaled"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 275,
+    "seats_available": 268,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday"
+        ],
+        "start_time": "14:50",
+        "end_time": "18:10",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Science Engineering Complex",
+        "room": "102",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35409"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35433",
+    "course_code": "INFO 6105",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Liu, Handan"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 23,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "tuesday",
+          "friday"
+        ],
+        "start_time": "09:50",
+        "end_time": "11:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "155",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35433"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35447",
+    "course_code": "INFO 6150",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Chawla, Vishal"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 26,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "18:10",
+        "end_time": "21:40",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Snell Library",
+        "room": "125",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35447"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35458",
+    "course_code": "INFO 6205",
+    "section_number": "02",
+    "campus": "Boston",
+    "instructors": [
+      "Hillyard, Robin"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 30,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday",
+          "wednesday"
+        ],
+        "start_time": "14:50",
+        "end_time": "16:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Snell Library",
+        "room": "012",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35458"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35460",
+    "course_code": "INFO 6205",
+    "section_number": "04",
+    "campus": "Boston",
+    "instructors": [
+      "Yu, Chen-Hsiang"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 17,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "tuesday",
+          "friday"
+        ],
+        "start_time": "15:25",
+        "end_time": "17:05",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Richards Hall",
+        "room": "225",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35460"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "42568",
+    "course_code": "INFO 6245",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Heydari, Kambiz"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 0,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "friday"
+        ],
+        "start_time": "13:35",
+        "end_time": "16:55",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Hayden Hall",
+        "room": "425",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "42568"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35496",
+    "course_code": "INFO 6255",
+    "section_number": "02",
+    "campus": "Boston",
+    "instructors": [
+      "Servattalab, Matthew"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 25,
+    "seats_available": 24,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Shillman Hall",
+        "room": "215",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35496"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35499",
+    "course_code": "INFO 6350",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Ahmed, Rabah"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 29,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "saturday"
+        ],
+        "start_time": "13:00",
+        "end_time": "16:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "153",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35499"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "42675",
+    "course_code": "INFO 6376",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Konstantopoulos, Constantin"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": 4,
+    "credits_min": 1,
+    "credits_max": 4,
+    "capacity": 30,
+    "seats_available": 22,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "tuesday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "233",
+        "type": "Class"
+      },
+      {
+        "days": [
+          "thursday"
+        ],
+        "start_time": "14:50",
+        "end_time": "16:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "233",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "42675"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35502",
+    "course_code": "INFO 6500",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Sieczkowski, Kaleigh"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 18,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday"
+        ],
+        "start_time": "16:35",
+        "end_time": "19:55",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "157",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35502"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "42124",
+    "course_code": "INFO 7374",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Zhao, Yizhen"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": 4,
+    "credits_min": 1,
+    "credits_max": 4,
+    "capacity": 30,
+    "seats_available": 25,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "wednesday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Snell Library",
+        "room": "017",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "42124"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35517",
+    "course_code": "INFO 7375",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Brown, Nicholas"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": 4,
+    "credits_min": 1,
+    "credits_max": 4,
+    "capacity": 30,
+    "seats_available": 0,
+    "waitlist_available": 3,
+    "meetings": [
+      {
+        "days": [
+          "monday",
+          "wednesday"
+        ],
+        "start_time": "14:50",
+        "end_time": "16:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "435",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35517"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "40015",
+    "course_code": "INFO 7375",
+    "section_number": "13",
+    "campus": "Boston",
+    "instructors": [
+      "Brown, Nicholas"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": 4,
+    "credits_min": 1,
+    "credits_max": 4,
+    "capacity": 30,
+    "seats_available": 28,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday",
+          "thursday"
+        ],
+        "start_time": "11:45",
+        "end_time": "13:25",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "435",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "40015"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "42128",
+    "course_code": "INFO 7375",
+    "section_number": "16",
+    "campus": "Boston",
+    "instructors": [
+      "Konstantopoulos, Constantin"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": 4,
+    "credits_min": 1,
+    "credits_max": 4,
+    "capacity": 30,
+    "seats_available": 22,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "monday",
+          "wednesday"
+        ],
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Ryder Hall",
+        "room": "155",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "42128"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "42129",
+    "course_code": "INFO 7390",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [
+      "Brown, Nicholas"
+    ],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 28,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "tuesday",
+          "friday"
+        ],
+        "start_time": "15:25",
+        "end_time": "17:05",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Snell Library",
+        "room": "125",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "42129"
+    }
+  },
+  {
+    "term": "202730",
+    "term_name": "Spring 2027 Semester",
+    "crn": "35529",
+    "course_code": "INFO 7410",
+    "section_number": "01",
+    "campus": "Boston",
+    "instructors": [],
+    "instructional_method": "Traditional",
+    "schedule_type": "Lecture",
+    "credits": null,
+    "credits_min": 4,
+    "credits_max": null,
+    "capacity": 30,
+    "seats_available": 30,
+    "waitlist_available": 15,
+    "meetings": [
+      {
+        "days": [
+          "wednesday"
+        ],
+        "start_time": "18:00",
+        "end_time": "21:30",
+        "start_date": "2027-01-13",
+        "end_date": "2027-05-02",
+        "campus": "Boston",
+        "building": "Richards Hall",
+        "room": "226",
+        "type": "Class"
+      }
+    ],
+    "source": {
+      "path": "banner/INFO-00000.json",
+      "url": "https://nubanner.neu.edu/StudentRegistrationSsb/ssb/searchResults/searchResults?txt_subject=INFO&txt_term=202730&startDatepicker=&endDatepicker=&pageOffset=0&pageMaxSize=100&sortColumn=courseReferenceNumber&sortDirection=asc",
+      "fetched_at": "2026-11-23T03:30:01.089347+00:00",
+      "sha256": "90472d7886f3548afca05dac7cf861c3273cef4a94e6bd7454d9c7716f35a591",
+      "record": "35529"
+    }
+  }
+]

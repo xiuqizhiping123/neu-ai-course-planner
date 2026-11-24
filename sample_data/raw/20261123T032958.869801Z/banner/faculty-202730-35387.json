@@ -1,0 +1,51 @@
+{
+  "fmt": 
+  [
+    {
+      "category": "01",
+      "class": "net.hedtech.banner.student.schedule.SectionSessionDecorator",
+      "courseReferenceNumber": "35387",
+      "faculty": 
+      [
+        {
+          "bannerId": "56010",
+          "category": "01",
+          "class": "net.hedtech.banner.student.faculty.FacultyResultDecorator",
+          "courseReferenceNumber": "35387",
+          "displayName": "Krishnamurthy, Srikanth",
+          "emailAddress": "krishnamurthy.s@northeastern.edu",
+          "primaryIndicator": true,
+          "term": "202730"
+        }
+      ],
+      "meetingTime": {
+        "beginTime": "1800",
+        "building": "RY",
+        "buildingDescription": "Ryder Hall",
+        "campus": "BOS",
+        "campusDescription": "Boston",
+        "category": "01",
+        "class": "net.hedtech.banner.general.overall.MeetingTimeDecorator",
+        "courseReferenceNumber": "35387",
+        "creditHourSession": 4.0,
+        "endDate": "05/02/2027",
+        "endTime": "2130",
+        "friday": true,
+        "hoursWeek": 3.5,
+        "meetingScheduleType": "LEC",
+        "meetingType": "CLAS",
+        "meetingTypeDescription": "Class",
+        "monday": false,
+        "room": "435",
+        "saturday": false,
+        "startDate": "01/13/2027",
+        "sunday": false,
+        "term": "202730",
+        "thursday": false,
+        "tuesday": false,
+        "wednesday": false
+      },
+      "term": "202730"
+    }
+  ]
+}

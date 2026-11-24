@@ -1,0 +1,41 @@
+[project]
+name = "neu-ai-course-planner"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.5.2",
+    "langchain-core>=1.8.4",
+    "langchain-openai>=1.8.5",
+    "langgraph>=1.2.24",
+    "pydantic-settings>=2.16.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "course_planner"
+
+[dependency-groups]
+dev = [
+    "ddgs>=9.16.1",
+    "pypdf>=7.1.1",
+    "pypdfium2>=5.15.2",
+    "pyright>=1.1.414",
+    "pytesseract>=0.3.13",
+    "pytest>=9.2.0",
+    "ruff>=0.17.6",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = '-m "not integration"'
+markers = [
+    "integration: tests requiring external models or databases",
+    "file_logging: enable real application file logging inside tmp_path",
+]
+
+[tool.ruff.lint]
+ignore = ["I"]

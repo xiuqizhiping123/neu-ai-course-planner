@@ -1,0 +1,296 @@
+Graduate School 
+of Engineering 
+ 
+130 Snell 
+Engineering Ctr. 
+360 Huntington 
+Ave. 
+Boston, MA 02115 
+ 
+617 373 2711 
+f 617 373 2501 
+ 
+Spring 2027 Course Registration Guidance – MS Software 
+Engineering Systems (Boston) 
+ 
+Congratulations on your acceptance to the Master of Science (MS) Software 
+Engineering Systems program at Northeastern University’s Graduate School of 
+Engineering on the Boston campus! At this time, we suggest that you register 
+for Spring 2027 courses. Before registering, please make sure to read the 
+instructions at the following link: 
+https://registrar.northeastern.edu/article/new-registration-experience/. 
+ 
+As an incoming Spring 2027 student, there are some steps that you need to take 
+before the Spring semester starts. Please read this document thoroughly as it 
+contains helpful information and can answer many of your questions before 
+you start your first semester in your master’s program. If you have any 
+questions, please contact COE Graduate Student Services team at  
+coe-gradadvising@northeastern.edu.  
+ 
+ 
+Step 1: Confirm your enrollment. 
+ 
+Please confirm your enrollment at Northeastern University, as you will not be 
+able to register for classes until you complete this step. To confirm your 
+enrollment, log into your electronic application account and pay the enrollment 
+deposit. If you have any questions, please contact Graduate Admissions at 
+coe-gradadmissions@northeastern.edu. Check your SPAM for a response. 
+ 
+ 
+Step 2: Know your key university and program contacts. 
+ 
+As a student in the Software Engineering Systems program, you have a team of 
+faculty and staff to assist you in your academic career at the Graduate School 
+of Engineering. You will meet these faculty and staff members during your 
+orientation and have the opportunity to ask them any questions you might 
+have. 
+ 
+Graduate Student Services (GSS) 
+GSS is an academic resource in the College of Engineering which, in 
+conjunction with university faculty and staff, facilitates key academic 
+processes, including course registration, graduation clearance, and 
+general academic advising.
+
+2 
+The Office of Global Services (OGS) 
+OGS is an active resource to all international students and scholars at 
+Northeastern. They provide the professional expertise and support you 
+need to maintain compliance through immigration, academic, and your 
+employment experiences. 
+ 
+College of Engineering Graduate Admissions 
+Our admissions team is dedicated to supporting you throughout the 
+application process. If you have questions about your application, visit 
+the Graduate Student Support Center for frequently asked questions, or 
+contact the team via email at: coe-gradadmissions@northeastern.edu. 
+ 
+Software Engineering and Information Systems (SEIS) Department 
+The directors, faculty, and staff of the SEIS department work 
+collaboratively to support our programs and students. As a new student, 
+we recommend reviewing the SEIS Frequently Asked Questions page, 
+which provides essential guidance for all our students. For any other 
+questions related to your program of study, please contact us at: 
+SEIS_Programs@northeastern.edu. 
+ 
+ 
+Step 3: Complete your course registration. 
+ 
+As a Software Engineering Systems student, you are required to complete 
+CSYE 6200: Concepts of Object Oriented Design, CSYE 7230: Software 
+Engineering, and INFO 6205: Program Structure and Algorithms, as part of 
+your degree requirements. These are the only required courses in the 
+Software Engineering Systems program and are important building blocks for 
+your subsequent courses. CSYE 6200 is a mandatory course for the Spring 
+semester. You will need to pair one of the recommended electives below with 
+CSYE 6200 in your first semester. CSYE 7230 and INFO 6205 are recommended 
+to be taken either in your second semester or later. We have several different 
+elective options for our first-year students that will help you develop the skills 
+you will need to be successful throughout the rest of your program.   
+ 
+Professor Kal Bugrara, the Director of the Software Engineering Systems 
+program, has created the following advising guide for you to refer to as you 
+choose your courses for this Spring. Please register for Boston sessions of the 
+courses. You will not be able to take courses from other campuses.  
+Please note that class information is subject to change. 
+ 
+CSYE 6200: Concepts of Object-Oriented Design
+
+3 
+This class will focus on the ins-and-outs of the Java programing language. 
+The course introduces object-oriented design and programming via the 
+Java programming language; the use of inheritance, composition, and 
+interface classes in software design. The course is an excellent way for 
+students to strengthen their development skills in preparation for the 
+heavily programming courses that will be taken in later semesters. 
+ 
+Section Available:  
+Section 02: Friday 6:00 PM ‒ 9:30 PM EST 
+CRN 35332 
+ 
+ 
+Elective Offerings: 
+ 
+CSYE 7280: User Experience Design and Testing 
+Introduces user experience concepts while working on Web design 
+projects. Offers students an opportunity to build the necessary skill 
+sets to make better decisions when designing contemporary websites 
+that cater to customer needs. Students practice interview techniques 
+to understand user requirements while keeping user experience 
+central to the effort. Uses wireframes and user scenarios to drive the 
+creative design process. Various case studies are introduced and 
+discussed in team settings to emphasize user perspectives. Uses 
+quality assurance and usability testing to drive validation and user-
+acceptance testing and approvals. 
+ 
+Section Available: 
+Section 02: Wednesday 6:10 PM – 9:40 PM EST 
+CRN 35356 
+ 
+DAMG 6210: Data Management and Database Design 
+For the student who has no background in databases and wants to know 
+what is involved in the design and programming of databases and wants 
+to maximize technical skills. A good foundation for those who want to 
+focus on data management, business intelligence, data science, etc. or 
+who want to make these areas their career objectives. 
+ 
+Sections Available: 
+Section 01: Monday 6:10 PM – 9:40 PM EST  
+CRN 35374  
+  
+Section 06: Monday & Thursday 11:45 AM – 1:25 PM EST
+
+4 
+CRN 35379 
+ 
+ 
+ 
+INFO 6105: Data Science Engineering Methods and Tools  
+This class is for students who are planning to build a career in 
+engineering machine learning and data science applications. The class 
+covers the fundamentals of probability and statistics, data analysis and 
+engineering, classification and clustering techniques, statistical 
+inferencing, machine learning methods and tools. In a step-by-step 
+manner, students will learn how to code in and make extensive use of 
+the python programming language. Minimum expertise in programming 
+is required to take this class. Though very demanding, this class is a good 
+fit with the Concepts of Object-Oriented Design class (CSYE 6200) for 
+students with prior development experience. 
+ 
+Sections Available:  
+Section 01: Tuesday & Friday 9:50 AM – 11:30 AM EST       
+CRN 35433 
+ 
+Section 02: Friday 3:25 PM – 6:55 PM EST       
+CRN 42122 
+ 
+INFO 6150: Web Design and User Experience Engineering 
+This course gets into the front-end design of web-based user interfaces 
+using Javascript. You learn the latest tools, techniques, and frameworks 
+for building attractive user interfaces that engage the user in meaningful 
+ways. You'll learn about various ways that users interact with systems, 
+color theory, and how to implement solid client-side user interfaces. 
+Meant for students with minimal programming background but ready to 
+program in Javascript and html. Tools covered include Javascript, 
+Typescript, AnglurJS, Node, and various aspects of the React framework. 
+ 
+Section Available: 
+Section 01: Thursday 6:10 PM ‒ 9:40 PM EST 
+CRN 35447 
+ 
+ 
+Frequently Asked Questions 
+ 
+In addition to the items outlined below, please visit the SEIS Frequently Asked
+
+5 
+Questions page for further guidance. 
+ 
+How do I register? 
+Visit the Registrar Office Registration Experience page to learn how to search 
+and register for courses using your me.Northeastern account. The online 
+registration system will allow you to add or drop courses. The deadline to add a 
+class can be found through the University’s Academic Calendar. 
+ 
+If you have any questions about course registration, please email your College of 
+Engineering Academic Advisor at:coe-gradadvising@northeastern.edu 
+ 
+How do I get a me.Northeastern account?  
+After you confirm your enrollment, you will be able to log in to your 
+me.Northeastern portal. If you have not set up your me.Northeastern account, 
+log in to your electronic application account and look for instructions to do so. 
+ 
+Do I need to attend both the Graduate School of Engineering General 
+Orientation and Program/ Department-Specific Orientation? What is the 
+difference between these two orientations?  
+We strongly recommend that you attend both. These are two entirely 
+different orientations and will provide you with information you need in order 
+to succeed. These sessions provide an opportunity not only to get your 
+questions answered but also to meet with your academic and co-op advisors. 
+ 
+What if I do not get the elective I wanted?  
+If your first preference does not have any seats available, please sign up for 
+your second preference (and so on). The schedule is dynamic, and students 
+will continue to change their registrations up until the start of the term so 
+there is still an opportunity for you to get into your first-choice elective this 
+Spring. Please make sure you are always registered for 8 SH if you are a full-
+time student. 
+ 
+What if my course is full?  
+Enrollments are always shifting as students are allowed to change their 
+registration. If a seat isn’t available in your preferred class right away, you can 
+join the waitlist. To join a waitlist, enter the CRN (the 5 numbers in 
+parentheses next to the course number) directly into your registration sheet 
+and hit submit. You will then have an option to select “waitlist” from a drop 
+down-menu. The waitlist system will automatically inform you when a seat 
+opens. When a seat opens, you need to just log into your account and accept 
+it within the 24-hour time limit.
+
+6 
+ 
+How do I meet with Professor Bugrara?  
+You will have an opportunity to meet with Professor Bugrara, the Director of 
+the Software Engineering Systems program, at orientation before classes start. 
+ 
+Am I allowed to take three courses?  
+No, Software Engineering Systems students are limited to two courses each 
+term. Based on feedback from our students we found that three courses were 
+too demanding, especially in terms of final exams and projects. All our courses 
+require projects that count as much as 30% of your final grade and it is 
+extremely hard to complete three of these a term. No exceptions to this policy 
+will be considered until after your first year. 
+ 
+Can I take courses from other departments? 
+The only departments SWES students can take courses from are CSYE (Software 
+Engineering Systems), DAMG (Data Architecture and Management), INFO 
+(Information Systems), and TELE (Telecommunication Systems). 
+ 
+Can I transfer credit from other universities?  
+No. Professor Bugrara firmly believes that all 32SH should be taken within 
+the program at Northeastern University to uphold the integrity and 
+continuity of the program. 
+ 
+What is the duration of the Software Engineering Systems Program?  
+You are required to take eight courses for a total of 32 credits. The program 
+takes a minimum of four semesters to complete. The typical student takes 2.5 
+years to complete the program, which includes an eight-month co-op. 
+ 
+Is there funding or Teaching Assistant jobs available for first year students? 
+Unfortunately, there are no funding options in your first year. TA positions 
+are filled by second year students only. You are expected to be fully 
+dedicated to achieving academic success in the first year of the program. 
+ 
+Am I required to bring a laptop? 
+Yes. You must bring a high-quality laptop with a minimum of 8 GB memory AND 
+a strong (4 hour) battery life -- this is required. 
+ 
+Am I eligible for co-op? 
+Students are not eligible for co-op during their first two semesters of study. 
+This period is intended to help students establish a strong academic foundation 
+before pursuing experiential learning opportunities.
+
+7 
+How do I register for the co-op course? 
+Please note that registration for the co-op course is not required unless 
+interested in participating in a co-op. One of the requirements to becoming 
+eligible to go on co-op is to take ENCP 6000, Career Management for 
+Engineers. To register, check Banner for available sections at your campus. 
+ 
+For more details, the Graduate Co-op Eligibility and Requirements can be found 
+HERE. 
+ 
+How long can I go on co-op? 
+Co-ops are a minimum of four months and a maximum of eight months.  
+ 
+Will I get a bill from registering? 
+Yes, your first e-bill is generated when you register for your courses. You will 
+receive an e-bill from the University with instructions on how to pay the e-bill. If 
+you have questions about the mode of payment or billing, please contact the 
+Student Financial Services Office by submitting a Student Financial Services 
+Inquiry Form. Please do not contact faculty members or the registrar’s office 
+regarding tuition payment or billing. Additional information is available on their 
+website at http://www.northeastern.edu/financialaid/contact/.  
+ 
+For more information about beginning your program at Northeastern 
+University, please read your acceptance letter in full. 
+ 
+We look forward to welcoming you to the Graduate School of Engineering!

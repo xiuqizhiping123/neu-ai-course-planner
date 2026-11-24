@@ -1,0 +1,119 @@
+Boston MS-SES advising guidance
+
+Program calendar and course load
+
+- The College of Engineering (COE) uses semesters. Fall and spring are the
+  main teaching terms. Summer is a single semester from May through August
+  starting in 2026, with courses that can run for only part of the term.
+  MS-SES typically admits in fall and spring. The 32-credit degree can be
+  completed in four full-time academic semesters. Enrollment dates, course
+  availability, a part-time pace, and co-op can affect the calendar timeline.
+- Use a 9-credit ceiling for standard MS-SES term plans. The normal full-time
+  academic load is 8 credits, typically two 4-credit courses. Students planning
+  co-op may add the 1-credit ENCP 6000 course for a 9-credit schedule when an
+  eligible section fits. The Boston welcome guide limits the regular academic
+  load to two courses and rules out academic overload exceptions in the first
+  year. The SEIS FAQ describes possible final-term overloads for eligible
+  students. Use an overload exception only when approval is confirmed.
+- The program offers part-time study. U.S. citizens and permanent residents
+  can consider part-time enrollment if it fits their program status. COE has
+  no general minimum credit load for officially part-time students. One
+  4-credit course is a possible starting point. Confirm individual enrollment
+  constraints with academic advising when relevant.
+
+F-1 and J-1 enrollment for the Boston program
+
+- In a required academic term, the usual full-time load is 8 credits with
+  qualifying on-ground enrollment throughout the term. Prefer sections in
+  Boston that meet the on-ground requirement. Check instructional method and
+  dates since a single half-term course cannot cover the whole semester. OGS
+  identifies Traditional, Hybrid, and Live Cast as qualifying F-1 instructional
+  methods. Verify unclear designations with advising.
+- For a standard F-1 plan of two 4-credit courses, at least one course must
+  provide qualifying on-ground enrollment throughout the term, or on-ground
+  sections must collectively cover it. Up to one eligible 4-credit online
+  course can count toward that 8-credit load. J-1 students must meet the
+  full-time minimum through on-ground coursework before adding online courses.
+  Direct either group to academic advising before enrolling online.
+- A continuing student's summer may be optional. Check whether summer is the
+  first or final term, whether a new I-20 or DS-2019 starts in summer, or whether
+  the program requires summer enrollment. Refer reduced course loads to OGS
+  for advance authorization. In the final term, a single remaining course must
+  be in person. Refer qualifying stipended assistantships (normally a 6-credit
+  minimum), co-op/CPT, and other special circumstances to academic advising
+  and OGS for the applicable rules. A schedule check cannot verify authorization.
+
+Co-op preparation
+
+- Students pursuing co-op must complete ENCP 6000 (Career Management for
+  Engineers, 1 credit) to qualify for a placement, unless the program has
+  approved a waiver. The course is optional for students who do not pursue
+  co-op and is separate from the 32 credits required for the degree.
+- Look for an ENCP 6000 section designated for Boston MS-SES in Banner during
+  the first or second semester. Starting a co-op placement and taking the
+  preparation course are separate milestones. The Boston welcome guide says
+  students cannot start a co-op during their first two semesters. Refer other
+  eligibility and search-timing questions to the program's co-op coordinator.
+
+Official references
+
+- University academic calendar: https://catalog.northeastern.edu/graduate/academic-policies-procedures/academic-calendar/
+- COE registration policy: https://catalog.northeastern.edu/graduate/engineering/academic-policies-procedures/course-registration-withdrawal/
+- MS-SES program: https://seis.northeastern.edu/academics/ms-swes/
+- MS-SES admissions: https://graduate.northeastern.edu/programs/ms-software-engineerng-systems/master-of-science-in-software-engineering-systems/
+- SEIS course-load FAQ: https://seis.northeastern.edu/academics/frequently-asked-questions/
+- Boston MS-SES catalog: https://catalog.northeastern.edu/graduate/engineering/multidisciplinary/software-engineering-systems-ms/
+- ENCP 6000 registration: https://coe.northeastern.edu/wp-content/uploads/pdfs/coe/gse/registration/mgen-coop.pdf
+- COE master's co-op: https://coe.northeastern.edu/academics-experiential-learning/co-op-experiential-learning/co-op/graduate-co-op/masters-co-op/
+- OGS enrollment: https://international.northeastern.edu/ogs/current-students/understanding-visa-requirements/guidelines-on-maintaining-status/
+- OGS summer enrollment: https://international.northeastern.edu/ogs/summer-enrollment-for-semester-based-students/
+- OGS reduced course load: https://international.northeastern.edu/ogs/current-students/understanding-visa-requirements/reduced-course-load/
+- OGS final term: https://international.northeastern.edu/ogs/current-students/understanding-visa-requirements/final-term/
+
+First-semester plan
+
+This section applies to students entering the Boston program in Spring 2027.
+Source: Spring 2027 Course Registration Guidance (docs/ses-welcome.txt).
+
+- Start with CSYE 6200 (Concepts of Object-Oriented Design), the required
+  first-semester course for this cohort.
+- Pair CSYE 6200 with one recommended elective that fits the student's goals
+  and experience. Schedule CSYE 7230 (Software Engineering) and INFO 6205
+  (Program Structure and Algorithms) from the second semester onward, subject
+  to prerequisites and course availability.
+- Use Boston sections for first-semester recommendations. If a schedule works
+  only with an Online section, label it as provisional and have the student
+  confirm with program advising that the section is allowed for this cohort.
+- If CSYE 6200 cannot fit, explain the blocker and suggest checking with program
+  advising before proceeding with an elective-only schedule.
+
+Recommended electives
+
+- CSYE 7280: User experience design and testing, including usability and QA.
+- DAMG 6210: Database design and data management. Suitable for students new to
+  databases and interested in data management or business intelligence.
+- INFO 6105: Data science and machine learning. Best suited to students with
+  prior programming or development experience. Check the prerequisite and
+  concurrent enrollment rules before pairing it with CSYE 6200.
+- INFO 6150: Front-end web development and user interfaces. Suitable for
+  students with limited programming experience who want to learn JavaScript
+  and HTML.
+
+AI learning roadmap for continuing students
+
+- INFO 6105 covers model training and evaluation and is a useful ML foundation.
+  For a student who needs more Python practice, DAMG 6105 is a foundation
+  option. Use INFO 6205 for algorithmic depth and plan CSYE 7230 around
+  availability so the remaining core requirements stay on track.
+- CSYE 7380 fits an interest in generative models, including transformers and
+  practical model-building. Check its own prerequisites. Prior ML study can be
+  useful preparation even when the catalog offers another eligibility route.
+- CSYE 7105 fits an interest in parallel ML and performance. DAMG 7245 fits an
+  interest in large-scale data pipelines and deployment. INFO 7390 focuses on
+  data integration, transformation, and architecture. Recheck each course's
+  prerequisites and preserve alternative qualifying paths. For example, the
+  2026–2027 catalog allows DAMG 6105 or INFO 6105 with a B for CSYE 7105 and
+  DAMG 7245, while INFO 7390 requires INFO 6105 with a B.
+
+Use the published catalog tools for prerequisites, campus, class times, CRNs,
+and seats. The welcome guide's section listings describe a point in time.

@@ -2,6 +2,7 @@ from pathlib import Path
 from uuid import uuid4
 
 from langchain.agents import create_agent
+from langchain.agents.middleware import ToolRetryMiddleware
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.runnables import RunnableConfig
 from langgraph.checkpoint.memory import MemorySaver
@@ -9,6 +10,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from course_planner.config import create_model
 from course_planner.logger import AgentObservabilityHandler
 from course_planner.planning_tools import PLANNING_TOOLS
+from course_planner.tool_recovery import recover_tool_calls
 
 llm = create_model()
 
@@ -63,6 +65,10 @@ explain what remains provisional. Report projected degree progress and label
 seats as snapshot values. Explain how each course serves a degree requirement
 or a student goal.
 
+If a tool returns an error, use its message to correct the call once when the
+needed information is available. If the retry fails, explain what could not
+be verified. Treat normal prerequisite and schedule results as findings.
+
 """.lstrip() + ADVISING_GUIDE.read_text(encoding="utf-8")
 
 
@@ -71,6 +77,11 @@ def build_agent(sys_prompt: str = system_prompt, tools: list | None = None):
         model=llm,
         tools=tools if tools is not None else PLANNING_TOOLS,
         system_prompt=sys_prompt,
+        middleware=[
+            recover_tool_calls,
+            # Surface expected exceptions so the model can retry with corrected arguments.
+            ToolRetryMiddleware(max_retries=0, retry_on=(ValueError, OSError)),
+        ],
         checkpointer=MemorySaver(),
     )
 
